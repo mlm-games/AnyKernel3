@@ -61,4 +61,6 @@ copy_dtb_dtbo
 cd "$ANYKERNEL_DIR"
 zip -r9 "$FINAL_KERNEL_ZIP" * -x .git README.md kernel_zipper.sh *placeholder
 
+mv $FINAL_KERNEL_ZIP ../$FINAL_KERNEL_ZIP
+
 echo "AnyKernel zip created: $FINAL_KERNEL_ZIP"
