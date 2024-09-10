@@ -7,7 +7,7 @@ KERNEL_SOURCE_DIR=".."  # Replace with actual path if yours is diff.
 FINAL_KERNEL_ZIP="RuskKernel.zip"
 
 # Clone AnyKernel3 repository
-git clone "$ANYKERNEL_REPO" "$ANYKERNEL_DIR" depth=1
+git clone "$ANYKERNEL_REPO" "$ANYKERNEL_DIR" --depth=1
 
 # Function to find and copy kernel image
 copy_kernel_image() {
