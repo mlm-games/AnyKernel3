@@ -4,13 +4,13 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Openela_rusk Kernel by ragebreaker
-do.devicecheck=1
+kernel.string=Rusk Kernel by ragebreaker
+do.devicecheck=0
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=m31s
+device.name1=
 device.name2=
 device.name3=
 device.name4=
@@ -29,8 +29,8 @@ set_perm_recursive 0 0 750 750 $RAMDISK/init* $RAMDISK/sbin;
 } # end attributes
 
 # boot shell variables
-BLOCK=/dev/block/platform/13520000.ufs/by-name/boot;
-IS_SLOT_DEVICE=0;
+BLOCK=auto;
+IS_SLOT_DEVICE=auto;
 RAMDISK_COMPRESSION=auto;
 PATCH_VBMETA_FLAG=auto;
 
@@ -59,7 +59,7 @@ PATCH_VBMETA_FLAG=auto;
 # write_boot; # use flash_boot to skip ramdisk repack, e.g. for devices with init_boot ramdisk
 
 split_boot;
-ui_print "- Installing openela rusk kernel";
+ui_print "- Installing rusk kernel";
 flash_boot;
 
 ## end boot install
