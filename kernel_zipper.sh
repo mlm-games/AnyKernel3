@@ -3,7 +3,7 @@
 # Set variables
 ANYKERNEL_REPO="https://github.com/mlm-games/AnyKernel3.git"
 ANYKERNEL_DIR="AnyKernel3"
-KERNEL_SOURCE_DIR=".."  # Replace with actual path
+KERNEL_SOURCE_DIR=".."  # Replace with actual path if yours is diff.
 FINAL_KERNEL_ZIP="RuskKernel.zip"
 
 # Clone AnyKernel3 repository
