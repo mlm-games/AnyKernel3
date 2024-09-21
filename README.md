@@ -2,7 +2,7 @@
 AnyKernel3 - Flashable Zip Template for Kernel Releases with Ramdisk Modifications
 ----------------------------------------------------------------------------------
 
-For KernelSU here (mainly)
+For KernelSU here (mainly non-gki)
 
 ### Originally by osm0sis @ xda-developers ###
 
