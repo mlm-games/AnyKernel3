@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Rusk Kernel by ragebreaker
+kernel.string=My Packaged Kernel
 do.devicecheck=0
 do.modules=0
 do.systemless=1
